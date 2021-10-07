@@ -103,16 +103,3 @@ window.addEventListener('scroll', function () {
     changeHeaderWhenScroll()
     activateMenuAtCurrentSection()
 })
-
-// onChange.addEventListener('input', function () {
-//     document.documentElement.style.setProperty('--hue', this.value);
-// });
-
-
-function layoutColor() {
-    const hueColor = document.querySelector('#hue')
-    document.documentElement.style.setProperty('--hue', hueColor.value);;
-}
-window.addEventListener('input', function () {
-    layoutColor()
-});
