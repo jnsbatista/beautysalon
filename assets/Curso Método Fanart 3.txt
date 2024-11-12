@@ -1,0 +1,7 @@
+<!-- Event snippet for Compra conversion page -->
+<script>
+  gtag('event', 'conversion', {
+      'send_to': 'AW-16650796423/txswCNrNptAZEIf724M-',
+      'transaction_id': ''
+  });
+</script>
